@@ -12,26 +12,35 @@
         <h1>Reseptigeneraattori</h1>
     </header>
 
-    <main>
-        <div class="welcome-section">
-            <div class="image-and-content">
-              <img src="images/frontpage.jpg" alt="Etusivu" class="frontpage-image">
-              <div class="text-and-buttons">
-                <p>Voit etsiä reseptejä ainesosien perusteella tai anna sivustomme yllättää!</p>
-                <div class="navigation-buttons">
-                  <a href="recipe.html" class="nav-button">Satunnainen resepti</a>
-                  <a href="search.html" class="nav-button">Haku</a>
-                  <a href="favorites.html" class="nav-button">Suosikit</a>
+    <main class="main">
+        <div class="layout-container">
+            <aside class="left">
+                <p>Tervetuloa Reseptigeneraattoriin, joka on toteutettu keväällä 2025 Web-sovellusten perusteet -kurssia varten!</p>
+                <img src="images/frontpage.jpg" alt="Etusivu" class="frontpage-image">
+            </aside>
+
+            <section class="center">
+                <div class="center-content">
+                    <p>Voit etsiä reseptejä ainesosien perusteella tai anna sivustomme yllättää!</p>
+                    <div class="navigation-buttons">
+                        <a href="recipe.html" class="nav-button">Satunnainen resepti</a>
+                        <a href="search.html" class="nav-button">Haku</a>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          
+            </section>
+
+            <aside class="right">
+                <div class="favorites">
+                    <h3>Suosikit</h3>
+                    <a href="favorites.html" class="favorites-link">Näytä kaikki</a>
+                    <ul id="favorites-list"></ul>
+                </div>
+            </aside>
+        </div>
     </main>
-    
-    <Footer>
-        <p>Kevät 2025 Web-sovellusten perusteet Jemina Patrikainen
-        </p>
-    </Footer>
+
+    <footer>
+        <p>Kevät 2025 Web-sovellusten perusteet Jemina Patrikainen</p>
+    </footer>
 </body>
 </html>
