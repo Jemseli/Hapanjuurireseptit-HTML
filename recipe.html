@@ -12,7 +12,10 @@
         <h1>Reseptigeneraattori</h1>
     </header>
     <main class="recipe-container">
-        <h2 id="recipe-name">Ladataan reseptiä...</h2>
+        <h2 id="recipe-name">
+            <span id="recipe-title">Ladataan reseptiä...</span>
+            <button id="save-favorite" class="favorite-button" title="Tallenna suosikiksi">❤️</button>
+        </h2>        
         <img id="recipe-image" src="" alt="" class="recipe-image">
         <section class="recipe-section">
             <h3>Ainekset</h3>
@@ -22,7 +25,11 @@
             <h3>Ohjeet</h3>
             <p id="instructions"></p>
         </section>
+        <button id="recipe-button2">Hae toinen resepti</button>
     </main>
+    <div class="back-button-container">
+        <a href="index.html" class="back-button">Palaa etusivulle</a>
+    </div>    
         <footer>
             Kevät 2025 Web-sovellusten perusteet Jemina Patrikainen
         </footer>
