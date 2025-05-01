@@ -52,7 +52,7 @@ function saveFavorite(meal) {
         favorites.push(meal);
         localStorage.setItem('favorites', JSON.stringify(favorites));
         alert('Tallennettu suosikkeihisi!');
-        displaySidebarFavorites(); // Päivitä sivupalkki
+        displaySidebarFavorites();
     } else {
         alert('Tämä resepti on jo tallennettu suosikkeihisi');
     }
